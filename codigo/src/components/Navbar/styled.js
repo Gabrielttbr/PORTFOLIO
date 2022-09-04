@@ -6,6 +6,7 @@ export const FluidContainer = styled.section`
     display:flex;
     justify-content: center;
     position: fixed;
+    top:0;
 `
 
 
