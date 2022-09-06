@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import background from "../../assets/BACKGROUND.jpg";
 
-export const Container = styled.div`
+export const Container = styled.section`
   height: 100vh;
   width: 100%;
   background: url(${background});
