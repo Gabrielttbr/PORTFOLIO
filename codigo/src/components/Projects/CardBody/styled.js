@@ -30,6 +30,10 @@ export const Main = styled.main`
         margin: 20px;
         color: #fff;
     }
+    @media screen and (max-width: 361px){
+        height: auto;
+        padding-bottom: 10%;
+    }
 `
 export const Footer = styled.footer`
     width: 100%;
