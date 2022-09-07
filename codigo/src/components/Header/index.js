@@ -1,13 +1,16 @@
 import * as S from './styled'
 
-const Header = () => {
+const Header = ({id}) => {
     return(
-        <S.Container>
+        <S.Container id={id}>
             <S.ContainerBackground>
                 <div>
                     <p>OLÁ, SOU GABRIEL CARLOS CAVALCANTE, DESENVOLVEDOR,</p>
                     <h1> <span>FULL</span>-STACK</h1>
-                    <button>SAIBA MAIS</button>
+                    <button>
+                        SAIBA MAIS
+	                    <div class="button__vertical"></div>
+                    </button>
                 </div>
             </S.ContainerBackground>
         </S.Container>

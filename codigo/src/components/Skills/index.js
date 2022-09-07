@@ -14,7 +14,7 @@ import GIT from "../../assets/GIT-ICON.png";
 import GITHUB from "../../assets/GITHUB.png";
 import DOCKER from "../../assets/DOKCER.png";
 
-const Skills = () => {
+const Skills = ({id}) => {
   const skillsObj = [
     {
       title: "FRONT-END ",
@@ -62,7 +62,7 @@ const Skills = () => {
     ));
   };
   return (
-    <S.Container>
+    <S.Container id={id}>
       <S.ContainerChild>
         <TitleSection titleWhite="HABILI" titleOrage="DADES"></TitleSection>
         <S.SkillSet>{returnSkills(skillsObj)}</S.SkillSet>

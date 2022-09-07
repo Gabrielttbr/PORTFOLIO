@@ -7,7 +7,7 @@ import Github from '../../assets/GITHUB-ICONE-CONTATO.png';
 
 import * as S from './styled';
 
-const Contacts = () => {
+const Contacts = ({id}) => {
     const contatcs = [
         {title: "Instagram", image: Instagram},
         {title: "WHATSAAP", image: Whatzaap},
@@ -24,7 +24,7 @@ const Contacts = () => {
         ))
     }
     return (
-        <S.Container>
+        <S.Container id={id}>
             <TitleSection titleOrage={"ATOS"} titleWhite={"CONT"}></TitleSection>
             <S.ContainerConstacts>
                 <S.ItemPhrase>

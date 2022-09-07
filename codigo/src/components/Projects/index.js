@@ -7,7 +7,7 @@ import GITHUBAPI from "../../assets/github-api.png";
 import CloneNetflix from "../../assets/netflix-project.png";
 import FORMSTEPRAIZES from "../../assets/Form-steps.png";
 
-const Projects = () => {
+const Projects = ({id}) => {
   const getAllProjects = [
     {
       title: "CLONE DA NETFLIX",
@@ -45,7 +45,7 @@ const Projects = () => {
   }
 
   return (
-    <S.Father>
+    <S.Father id={id}>
       <S.Container>
         <TitleSection titleWhite="PROJE" titleOrage="TOS"></TitleSection>
         <S.Wrapper>

@@ -5,8 +5,10 @@ export const Container = styled.section`
   height: 100vh;
   width: 100%;
   background: url(${background});
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 `;
 export const ContainerBackground = styled.div`
   background: rgb(0 0 0 / 20%);
@@ -38,14 +40,20 @@ export const ContainerBackground = styled.div`
     }
     button {
       border: none;
-      background-color: var(--primary-color);
+      background: var(--primary-color);
       width: 50%;
       color: #fff;
       padding: 5px;
       font-weight: 800;
       font-size: 17px;
       margin: 10px;
+      transition: background .2s ease;
+      &:hover{
+        background: transparent;
+        border: solid 1px var(--primary-color);
+      }
     }
+
     @media screen and (max-width: 627px) {
       h1 {
         font-size: 50px;

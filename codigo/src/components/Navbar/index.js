@@ -17,11 +17,11 @@ const Navegation = () => {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll" className="justify-content-end white">
               <Nav style={{ maxHeight: "180px" }} navbarScroll>
-                <Nav.Link href="#action1">INÍCIO</Nav.Link>
-                <Nav.Link href="#action2">SOBRE MIM</Nav.Link>
-                <Nav.Link href="#action1">HABILIDADES</Nav.Link>
-                <Nav.Link href="#action2">PROJETOS</Nav.Link>
-                <Nav.Link href="#action2">CONTATOS</Nav.Link>
+                <Nav.Link id="link" href="#Start">INÍCIO</Nav.Link>
+                <Nav.Link href="#About">SOBRE MIM</Nav.Link>
+                <Nav.Link href="#Skills">HABILIDADES</Nav.Link>
+                <Nav.Link href="#Projects">PROJETOS</Nav.Link>
+                <Nav.Link href="#Contatcts">CONTATOS</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

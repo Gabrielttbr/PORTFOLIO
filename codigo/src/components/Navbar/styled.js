@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 export const FluidContainer = styled.section`
     width: 100%;
     background: rgb(0 0 0 / 80%) !important;
@@ -24,6 +26,9 @@ export const Navbar = styled.div`
         font-weight: 800;
         margin-left:3px;
         margin-right:3px;
+    }
+    a:hover{
+        border-bottom: 2px solid var(--primary-color) ;
     }
     @media screen and (max-width: 627px){
         padding:0;

@@ -2,9 +2,9 @@ import TitleSection from "../TitleSection";
 
 import * as S from "./styled";
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <S.Container>
+    <S.Container id={id}>
       <S.ContainerChild>
         <TitleSection titleWhite={"SOBRE "} titleOrage={"MIM"}></TitleSection>
         <S.VideoContainer>
