@@ -35,8 +35,8 @@ const Projects = () => {
     },
   ];
   function getAllCardProject(dace) {
-    return dace.map((item) => (
-      <CardBody
+    return dace.map((item, index) => (
+      <CardBody key={index}
         title={item.title}
         description={item.description}
         image={item.image}
