@@ -1,9 +1,9 @@
 import TitleSection from '../TitleSection';
 
-import Whatzaap from '../../assets/whatzaap.png';
-import Instagram from '../../assets/instagram.png';
-import Linkedin from '../../assets/LinkedIn_icon_circle.svg.png';
-import Github from '../../assets/GITHUB.png';
+import Whatzaap from '../../assets/whatzaap-icon-contato.png';
+import Instagram from '../../assets/instagram-icon-contato.png';
+import Linkedin from '../../assets/LinkedIn-ICON-CONTATO.png';
+import Github from '../../assets/GITHUB-ICONE-CONTATO.png';
 
 import * as S from './styled';
 

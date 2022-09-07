@@ -52,10 +52,7 @@ export const ItemIcon = styled.a`
 
     width: 20%;
     margin: 20px;
-    img{
-        width: 100%; 
-        height: 70%;
-    }
+    
     #GITHUB{
         height: 85%;
     }

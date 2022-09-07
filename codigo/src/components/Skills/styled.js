@@ -27,11 +27,13 @@ export const SkillItem = styled.div`
     margin-bottom: 40px;
     display: flex;
     align-items: center;
+    padding: 20px ;
     @media screen and (max-width: 769px){
        flex-direction: column;
        width: 90%;
     }
     @media screen and (max-width: 610px){
+        border: none;
         width: 50%;
     }
     @media screen and (max-width: 373px){
@@ -73,7 +75,10 @@ export const itemTitle = styled.div`
         height: auto;
         border-bottom: 6px solid  var(--primary-color);
     }
-    @media screen and (max-width: 373px){
+    @media screen and (max-width: 610px){
+        margin-bottom: 10px;
+    }
+    @media screen and (max-width: 449px){
         padding: 5px;
         h1{
      
