@@ -4,6 +4,7 @@ export const Container = styled.div`
     max-width: 320px;
     width: 100%;
     border: 1px solid var(--primary-color);
+    margin: 20px ;
 `;
 export const Header = styled.header`
     height: 210px;
@@ -15,15 +16,18 @@ export const Header = styled.header`
     }
 `
 export const Main = styled.main`
-    height: 200px;
+    height: 240px;
     background:#111111;
     h1{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         color: #fff;
         font-weight: 900;
+        padding:10px ;
     }
     p{
+        font-size: 14px ;
+        margin: 20px;
         color: #fff;
     }
 `

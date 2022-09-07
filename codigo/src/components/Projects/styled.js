@@ -5,7 +5,7 @@ export const Father = styled.section`
 `;
 export const Container = styled.div`
     padding-top: 40px;
-    max-width:1024px;
+    max-width:1100px;
     margin: auto;
 `
 export const Wrapper = styled.div`
@@ -13,4 +13,5 @@ export const Wrapper = styled.div`
     display:flex;
     justify-content: center;
     align-items:  center;
+    flex-wrap: wrap;
 `
