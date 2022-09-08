@@ -11,7 +11,11 @@ const CardBody = ({title, description, image, link}) => {
                 <p>{description}</p>
             </S.Main>
             <S.Footer>
-                <S.Button> <a href={link} target="_black"></a>SAIBA MAIS</S.Button>
+            <S.Link href={link} target="_black">
+                <S.Button>
+                    SAIBA MAIS
+                </S.Button>
+            </S.Link>
             </S.Footer>
         </S.Container>
     )

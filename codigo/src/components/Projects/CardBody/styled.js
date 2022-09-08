@@ -55,5 +55,9 @@ export const Button = styled.button`
     border: none;
     margin: 20px;
     font-weight:800;
+    `
+export const Link = styled.a`
+    text-decoration: none;
+    width: 90%;
 
 `

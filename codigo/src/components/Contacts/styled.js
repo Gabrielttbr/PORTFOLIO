@@ -51,7 +51,7 @@ export const ItemIcon = styled.a`
     justify-content: center;
 
     width: 20%;
-    margin: 20px;
+
     
     #GITHUB{
         height: 85%;
@@ -68,4 +68,12 @@ export const ItemIcon = styled.a`
             width: 40%;
         }
     }
+`
+export const Link = styled.a`
+    text-decoration: none;
+    color: #fff;
+    width: 20%;
+    margin: 20px;
+
+
 `

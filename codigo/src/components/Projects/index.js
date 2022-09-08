@@ -16,6 +16,7 @@ const Projects = ({id}) => {
     criei um API com Express, que vai gerenciar os usuários,
     séries, filmes e banners. O front-end foi desenvolvido em React, 
     com página de login, register, home, e a estática de apresentação dela.`,
+    link: "https://github.com/Gabrielttbr/client-netflix"
     },
     {
       title: "GITHUB API",
@@ -32,6 +33,7 @@ const Projects = ({id}) => {
         Fiz ele em react, utilizando Material UI e Bootstrap. Umas das dificuldades 
         foi passar os dados de uma etapa para outra. A outra foi pensar como mostrar esse dados novamente,
         caso o user vontase.`,
+        link: "https://github.com/Gabrielttbr/GITHUB-CONSUMINDO-API"
     },
   ];
   function getAllCardProject(dace) {
@@ -40,6 +42,7 @@ const Projects = ({id}) => {
         title={item.title}
         description={item.description}
         image={item.image}
+        link={item.link}
       ></CardBody>
     ));
   }
