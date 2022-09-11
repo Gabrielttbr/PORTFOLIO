@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import 'aos/dist/aos.css'
 
 import Navegation from "./components/Navbar";
 import Header from "./components/Header";

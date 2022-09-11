@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useEffect }from "react";
 import TitleSection from "../TitleSection";
 import CardBody from "./CardBody";
+import Aos from "aos";
 
 import * as S from "./styled";
 import GITHUBAPI from "../../assets/github-api.png";
@@ -8,6 +9,9 @@ import CloneNetflix from "../../assets/netflix-project.png";
 import FORMSTEPRAIZES from "../../assets/Form-steps.png";
 
 const Projects = ({id}) => {
+  useEffect(()=>{
+    Aos.init({duration: 1000})
+  },[])
   const getAllProjects = [
     {
       title: "CLONE DA NETFLIX",
@@ -39,7 +43,7 @@ const Projects = ({id}) => {
   ];
   function getAllCardProject(dace) {
     return dace.map((item, index) => (
-      <CardBody key={index}
+      <CardBody  key={index}
         title={item.title}
         description={item.description}
         image={item.image}
@@ -52,7 +56,7 @@ const Projects = ({id}) => {
     <S.Father id={id}>
       <S.Container>
         <TitleSection titleWhite="PROJE" titleOrage="TOS"></TitleSection>
-        <S.Wrapper>
+        <S.Wrapper  data-aos="fade-left">
           {getAllCardProject(getAllProjects)}
         </S.Wrapper>
       </S.Container>

@@ -1,6 +1,7 @@
-
-import * as S from "./styled";
+import { useEffect } from "react";
 import TitleSection from "../TitleSection";
+import Aos from 'aos'
+import * as S from "./styled";
 
 import HTML from "../../assets/HTML.png";
 import CSS from "../../assets/CSS.png";
@@ -16,7 +17,10 @@ import GITHUB from "../../assets/GITHUB.png";
 import DOCKER from "../../assets/DOKCER.png";
 
 const Skills = ({id}) => {
-
+  //Aos animation scroll
+  useEffect(()=>{
+    Aos.init({duration: 1000})
+  },[])
 
   const skillsObj = [
     {
@@ -49,7 +53,7 @@ const Skills = ({id}) => {
   ];
   const returnSkills = (skills) => {
     return skills.map((item, index) => (
-      <S.SkillItem key={index}>
+      <S.SkillItem data-aos="fade-left" key={index}>
         <S.itemTitle>
           <h1>{item.title}</h1>
         </S.itemTitle>

@@ -38,10 +38,13 @@ export const ContainerBackground = styled.div`
         text-align: center;
       }
     }
+    a{
+      width: 50%;
+    }
     button {
       border: none;
       background: var(--primary-color);
-      width: 50%;
+      width: 100%;
       color: #fff;
       padding: 5px;
       font-weight: 800;

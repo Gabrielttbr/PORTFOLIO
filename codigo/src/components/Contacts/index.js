@@ -1,5 +1,6 @@
 import TitleSection from '../TitleSection';
-
+import { useEffect} from 'react';
+import Aos from 'aos';
 import Whatzaap from '../../assets/whatzaap-icon-contato.png';
 import Instagram from '../../assets/instagram-icon-contato.png';
 import Linkedin from '../../assets/LinkedIn-ICON-CONTATO.png';
@@ -8,6 +9,11 @@ import Github from '../../assets/GITHUB-ICONE-CONTATO.png';
 import * as S from './styled';
 
 const Contacts = ({id}) => {
+    useEffect(()=> {
+        Aos.init({
+            duration: 1000
+        })
+    },[])
     const contatcs = [
         {title: "Instagram", image: Instagram, link: "https://www.instagram.com/garafa02/"},
         {title: "WHATSAAP", image: Whatzaap, link: "http://web.whatsapp.com/send?phone=5511969386808"},
@@ -28,7 +34,7 @@ const Contacts = ({id}) => {
     return (
         <S.Container id={id}>
             <TitleSection titleOrage={"ATOS"} titleWhite={"CONT"}></TitleSection>
-            <S.ContainerConstacts>
+            <S.ContainerConstacts data-aos="fade-right">
                 <S.ItemPhrase>
                     <h1>VAMOS TRABLHAR JUNTOS!</h1>
                 </S.ItemPhrase>
