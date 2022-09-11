@@ -1,3 +1,4 @@
+
 import * as S from "./styled";
 import TitleSection from "../TitleSection";
 
@@ -15,6 +16,8 @@ import GITHUB from "../../assets/GITHUB.png";
 import DOCKER from "../../assets/DOKCER.png";
 
 const Skills = ({id}) => {
+
+
   const skillsObj = [
     {
       title: "FRONT-END ",

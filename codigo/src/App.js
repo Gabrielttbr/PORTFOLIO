@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 
 import Navegation from "./components/Navbar";
 import Header from "./components/Header";
@@ -9,6 +10,7 @@ import Footer from "./components/Footer";
 //Styled
 
 function App() {
+
   return (
     <div>
       <Navegation/>

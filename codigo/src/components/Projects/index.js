@@ -22,10 +22,11 @@ const Projects = ({id}) => {
       title: "GITHUB API",
       image: GITHUBAPI,
       description: `Criei uma aplicação em React, que vai consumir a API do Github, 
-    utilizando o Axios para trabalhar com as requisições. Possui uma página inicial com 
-    formulário para digitar o user, logo depois que digitado e redirecionado para uma página que faz os getAlls.`,
-    },
-    {
+      utilizando o Axios para trabalhar com as requisições. Possui uma página inicial com 
+      formulário para digitar o user, logo depois que digitado e redirecionado para uma página que faz os getAlls.`,
+      link:"https://github.com/Gabrielttbr/GITHUB-CONSUMINDO-API"
+      },
+      {
       title: "FORM STEPS RAÍZES",
       image: FORMSTEPRAIZES,
       description: `Esse formulário de etapas foi um desafio passado para mim,
@@ -33,7 +34,7 @@ const Projects = ({id}) => {
         Fiz ele em react, utilizando Material UI e Bootstrap. Umas das dificuldades 
         foi passar os dados de uma etapa para outra. A outra foi pensar como mostrar esse dados novamente,
         caso o user vontase.`,
-        link: "https://github.com/Gabrielttbr/GITHUB-CONSUMINDO-API"
+      link: "https://github.com/Raizes-Educacional/front-end-react/tree/Gabriel"
     },
   ];
   function getAllCardProject(dace) {

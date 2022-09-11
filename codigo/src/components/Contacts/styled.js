@@ -51,6 +51,7 @@ export const ItemIcon = styled.a`
     justify-content: center;
 
     width: 20%;
+    margin:auto;
 
     
     #GITHUB{
@@ -63,9 +64,9 @@ export const ItemIcon = styled.a`
         color: #fff;
     }
     @media screen and (max-width: 546px){
-        width: 100%;
+        width: 100%!important;
         img{
-            width: 40%;
+            width:100px;
         }
     }
 `

@@ -16,8 +16,8 @@ const Contacts = ({id}) => {
     ]
     function getAllContacts (dace) {
         return dace.map( (item, index) => (
-        <S.Link href={item.link} target="_blank">
-            <S.ItemIcon key={index}> 
+        <S.Link href={item.link} key={index} target="_blank">
+            <S.ItemIcon > 
                 <img src={item.image} alt={item.title}  id={item.title}></img>
                 <h1>{item.title}</h1>
             </S.ItemIcon>

@@ -9,7 +9,7 @@ const Header = ({id}) => {
                     <h1> <span>FULL</span>-STACK</h1>
                     <button>
                         SAIBA MAIS
-	                    <div class="button__vertical"></div>
+	                    <div className="button__vertical"></div>
                     </button>
                 </div>
             </S.ContainerBackground>
