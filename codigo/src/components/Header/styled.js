@@ -4,7 +4,7 @@ import background from "../../assets/BACKGROUND.jpg";
 export const Container = styled.section`
   height: 100vh;
   width: 100%;
-  background: url(${background});
+  background: url(.${background});
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;

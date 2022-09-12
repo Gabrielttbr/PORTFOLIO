@@ -37,7 +37,7 @@ const Skills = ({id}) => {
       title: "BACK-END",
       Skills: [
         { descripition: "NEST", image: NEST },
-        { descripition: "NODE", image: NODE },
+        { descripition: "NODE", image: '.'+NODE },
         { descripition: "EXPRESS", image: EXPRESS },
         { descripition: "MYSQL", image: MYSQL },
       ],
