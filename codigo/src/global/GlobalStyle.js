@@ -15,6 +15,15 @@ const GlobalStyle = createGlobalStyle`
             color: #fff !important;
         }
     }
-`
+    body{
+        width:100% !important;
+        overflow-x:hidden  !important;
+        
+    }
+    html, body { overflow-x: hidden; }
+
+}
+
+`;
 
 export default GlobalStyle;

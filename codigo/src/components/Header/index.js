@@ -5,13 +5,13 @@ import * as S from './styled'
 const Header = ({id}) => {
     useEffect(() => {
         Aos.init({
-            duration: 1000
+            duration: 1000,
         })
     },[])
     return(
         <S.Container id={id}>
             <S.ContainerBackground>
-                <div data-aos="fade-right">
+                <div  data-aos="fade-right">
                     <p>OLÁ, SOU GABRIEL CARLOS CAVALCANTE, DESENVOLVEDOR,</p>
                     <h1> <span>FULL</span>-STACK</h1>
                     <a href='#About'>

@@ -55,5 +55,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      $(function() {
+          AOS.init({
+            disable: window.innerWidth < 768, // this one if you want to load animation once else you can remove it
+          });
+      });
+      </script>
   </body>
+
+    
+    
 </html>

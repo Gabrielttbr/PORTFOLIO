@@ -10,7 +10,10 @@ import FORMSTEPRAIZES from "../../assets/Form-steps.png";
 
 const Projects = ({id}) => {
   useEffect(()=>{
-    Aos.init({duration: 1000})
+    Aos.init({
+      duration: 1000,
+     
+    })
   },[])
   const getAllProjects = [
     {
@@ -56,7 +59,7 @@ const Projects = ({id}) => {
     <S.Father id={id}>
       <S.Container>
         <TitleSection titleWhite="PROJE" titleOrage="TOS"></TitleSection>
-        <S.Wrapper  data-aos="fade-left">
+        <S.Wrapper   data-aos="fade-right">
           {getAllCardProject(getAllProjects)}
         </S.Wrapper>
       </S.Container>

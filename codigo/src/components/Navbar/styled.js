@@ -15,6 +15,7 @@ export const FluidContainer = styled.section`
 
 
 export const Navbar = styled.div`
+    overflow-x: auto !important;
     max-width: 1024px;
     width: 100%;
     padding-left: 30px;

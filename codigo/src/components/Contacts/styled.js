@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     background: #000;
     min-height: 100vh;
+    overflow-x:hidden;
 `
 export const ContainerConstacts = styled.div`
     max-width:  1024px;

@@ -1,4 +1,4 @@
-import 'aos/dist/aos.css'
+import '../node_modules/aos/dist/aos.css'
 
 import Navegation from "./components/Navbar";
 import Header from "./components/Header";

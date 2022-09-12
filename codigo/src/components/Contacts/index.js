@@ -7,11 +7,12 @@ import Linkedin from '../../assets/LinkedIn-ICON-CONTATO.png';
 import Github from '../../assets/GITHUB-ICONE-CONTATO.png';
 
 import * as S from './styled';
+import '../../../node_modules/aos/dist/aos.css'
 
 const Contacts = ({id}) => {
     useEffect(()=> {
         Aos.init({
-            duration: 1000
+            duration: 1000,
         })
     },[])
     const contatcs = [
