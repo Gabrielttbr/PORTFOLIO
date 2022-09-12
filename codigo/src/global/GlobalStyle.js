@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     }
     :root {
         --primary-color: #FC4E00;
+        --two-color: #ff7d42;
     }
     .navbar-toggler{
         color: #fff !important ;

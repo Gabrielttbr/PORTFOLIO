@@ -15,7 +15,7 @@ const Projects = ({id}) => {
   const getAllProjects = [
     {
       title: "CLONE DA NETFLIX",
-      image: CloneNetflix,
+      image: '.'+CloneNetflix,
       description: `Nesse projeto fiz um clone da Netflix, 
     criei um API com Express, que vai gerenciar os usuários,
     séries, filmes e banners. O front-end foi desenvolvido em React, 
@@ -24,7 +24,7 @@ const Projects = ({id}) => {
     },
     {
       title: "GITHUB API",
-      image: GITHUBAPI,
+      image: '.'+GITHUBAPI,
       description: `Criei uma aplicação em React, que vai consumir a API do Github, 
       utilizando o Axios para trabalhar com as requisições. Possui uma página inicial com 
       formulário para digitar o user, logo depois que digitado e redirecionado para uma página que faz os getAlls.`,
@@ -32,7 +32,7 @@ const Projects = ({id}) => {
       },
       {
       title: "FORM STEPS RAÍZES",
-      image: FORMSTEPRAIZES,
+      image: '.'+FORMSTEPRAIZES,
       description: `Esse formulário de etapas foi um desafio passado para mim,
         desenvolver, ele e uns de muitos que venho desenvolvendo para ONG raízes.
         Fiz ele em react, utilizando Material UI e Bootstrap. Umas das dificuldades 

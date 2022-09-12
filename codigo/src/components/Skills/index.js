@@ -9,7 +9,7 @@ import JS from "../../assets/JS-TEXT.png";
 import REACT from "../../assets/React-icon.svg (1).png";
 import TS from "../../assets/TS.png";
 import NEST from "../../assets/NEST-ICON.png";
-import NODE from "../../assets/NODEJS.png";
+import NODE from "../../assets/NODESSSSJS.png";
 import EXPRESS from "../../assets/EXPRESSs.png";
 import MYSQL from "../../assets/MYSQL-NOT-FOUND.png";
 import GIT from "../../assets/GIT-ICON.png";
@@ -37,7 +37,7 @@ const Skills = ({id}) => {
       title: "BACK-END",
       Skills: [
         { descripition: "NEST", image: NEST },
-        { descripition: "NODE", image: NODE },
+        { descripition: "NODE", image: `.${NODE}` },
         { descripition: "EXPRESS", image: EXPRESS },
         { descripition: "MYSQL", image: MYSQL },
       ],
