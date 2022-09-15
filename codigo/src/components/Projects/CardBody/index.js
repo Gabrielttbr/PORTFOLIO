@@ -1,6 +1,7 @@
 import * as S from './styled';
 
-const CardBody = ({title, description, image, link}) => {
+const CardBody = ({title, description, image, link, fullstack}) => {
+
     return (
         <S.Container>
             <S.Header>
@@ -13,7 +14,7 @@ const CardBody = ({title, description, image, link}) => {
             <S.Footer>
             <S.Link href={link} target="_black">
                 <S.Button>
-                    SAIBA MAIS
+                    Ver no Github
                 </S.Button>
             </S.Link>
             </S.Footer>
