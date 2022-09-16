@@ -6,7 +6,6 @@ const CardBody = ({title, description, image, link, type}) => {
         <S.Container>
             <S.Header>
                 <img src={image} alt={title}></img>
-                <p>BACK-END</p>
             </S.Header>
             <S.Main>
                 <h1>{title}</h1>
