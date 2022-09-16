@@ -59,6 +59,7 @@ const Projects = ({id}) => {
     <S.Father id={id}>
       <S.Container>
         <TitleSection titleWhite="PROJE" titleOrage="TOS"></TitleSection>
+        
         <S.Wrapper   data-aos="fade-right">
           {getAllCardProject(getAllProjects)}
         </S.Wrapper>

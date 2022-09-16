@@ -7,12 +7,24 @@ export const Container = styled.div`
     margin: 20px ;
 `;
 export const Header = styled.header`
-    height: 210px;
+    max-height: 210px;
+    height:100vh !important;
     width: 100%;
     background: #fff ;
     img{
         width:100%;
         height:100%;
+    }
+    p{
+        position: relative;
+        top: -100%;
+        color: #fff;
+        padding: 5px;
+        background-color:var(--primary-color);
+        width: 24%;
+        font-size: 11px;
+        font-weight: 800;
+        text-align: center;
     }
 `
 export const Main = styled.main`

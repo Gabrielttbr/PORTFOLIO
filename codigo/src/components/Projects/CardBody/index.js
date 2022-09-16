@@ -1,11 +1,12 @@
 import * as S from './styled';
 
-const CardBody = ({title, description, image, link, fullstack}) => {
+const CardBody = ({title, description, image, link, type}) => {
 
     return (
         <S.Container>
             <S.Header>
                 <img src={image} alt={title}></img>
+                <p>BACK-END</p>
             </S.Header>
             <S.Main>
                 <h1>{title}</h1>
