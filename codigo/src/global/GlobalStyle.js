@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
             color: #fff !important;
         }
     }
+
     body{
         width:100% !important;
         overflow-x:hidden  !important;

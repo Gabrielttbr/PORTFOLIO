@@ -26,9 +26,12 @@ export const Header = styled.header`
         font-weight: 800;
         text-align: center;
     }
+
 `
 export const Main = styled.main`
-    height: 240px;
+    display: flex;
+    flex-direction:column;
+    height: 290px;
     background:#111111;
     h1{
         font-size: 25px;
@@ -41,6 +44,9 @@ export const Main = styled.main`
         font-size: 14px ;
         margin: 20px;
         color: #fff;
+    }
+    #large{
+        font-size: 22px;
     }
     @media screen and (max-width: 361px){
         height: auto;
