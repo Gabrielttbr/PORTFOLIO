@@ -18,30 +18,33 @@ const Projects = ({id}) => {
   const getAllProjects = [
     {
       title: "CLONE DA NETFLIX",
-      image: '.'+CloneNetflix,
-      description: `Nesse projeto fiz um clone da Netflix, 
-    criei um API com Express, que vai gerenciar os usuários,
-    séries, filmes e banners. O front-end foi desenvolvido em React, 
-    com página de login, register, home, e a estática de apresentação dela.`,
-    link: "https://github.com/Gabrielttbr/client-netflix"
+      image: './'+CloneNetflix,
+      description: `
+      Desenvolvido em React e Express, possui uma API de controle de usuários, filmes e banners
+       e front-end com cadastro de usuário, login, homepage com os conteúdos e estatísticas de reprodução.`,
+      link: "https://github.com/Gabrielttbr/client-netflix",
+      large: ''
     },
     {
       title: "GITHUB API",
-      image: '.'+GITHUBAPI,
-      description: `Criei uma aplicação em React, que vai consumir a API do Github, 
-      utilizando o Axios para trabalhar com as requisições. Possui uma página inicial com 
-      formulário para digitar o user, logo depois que digitado e redirecionado para uma página que faz os getAlls.`,
-      link:"https://github.com/Gabrielttbr/GITHUB-CONSUMINDO-API"
+      image:'./'+GITHUBAPI,
+      description: `É um projeto apenas de front-end, desenvolvido em React, 
+      que consome a API do GitHub utilizando o Axios para coletar informações de usuários. 
+      A página inicial recebe o nome do usuário através de um formulário, 
+      comunica-se com a API e exibe os respectivos dados na tela..`,
+      link:"https://github.com/Gabrielttbr/GITHUB-CONSUMINDO-API",
+      large: ''
       },
       {
-      title: "FORM STEPS RAÍZES",
-      image: '.'+FORMSTEPRAIZES,
-      description: `Esse formulário de etapas foi um desafio passado para mim,
-        desenvolver, ele e uns de muitos que venho desenvolvendo para ONG raízes.
-        Fiz ele em react, utilizando Material UI e Bootstrap. Umas das dificuldades 
-        foi passar os dados de uma etapa para outra. A outra foi pensar como mostrar esse dados novamente,
-        caso o user vontase.`,
-      link: "https://github.com/Raizes-Educacional/front-end-react/tree/Gabriel"
+      title: "Gestão do Raízes",
+      image:"./"+ FORMSTEPRAIZES,
+      description: `O Raízes é um cursinho popular voluntário que ajuda alunos
+       da rede pública de São Paulo a se preparem para provas de escolas técnicas.
+         A iniciativa atende anualmente cerca de 100 alunos e, por isso, está 
+         digitalizando suas tarefas de backoffice. Dentre as funcionalidades que estão 
+         sendo desenvolvidas, podemos citar: matrículas, frequência de alunos, grades de aulas,
+          avaliação e plataforma de simulação de provas.`,
+      link: "https://github.com/Raizes-Educacional/",
     },
   ];
   function getAllCardProject(dace) {
@@ -51,6 +54,7 @@ const Projects = ({id}) => {
         description={item.description}
         image={item.image}
         link={item.link}
+        large={item.large}
       ></CardBody>
     ));
   }
@@ -59,6 +63,7 @@ const Projects = ({id}) => {
     <S.Father id={id}>
       <S.Container>
         <TitleSection titleWhite="PROJE" titleOrage="TOS"></TitleSection>
+        
         <S.Wrapper   data-aos="fade-right">
           {getAllCardProject(getAllProjects)}
         </S.Wrapper>

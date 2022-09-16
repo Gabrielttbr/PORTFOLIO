@@ -7,16 +7,31 @@ export const Container = styled.div`
     margin: 20px ;
 `;
 export const Header = styled.header`
-    height: 210px;
+    max-height: 210px;
+    height:100vh !important;
     width: 100%;
     background: #fff ;
     img{
         width:100%;
         height:100%;
     }
+    p{
+        position: relative;
+        top: -100%;
+        color: #fff;
+        padding: 5px;
+        background-color:var(--primary-color);
+        width: 24%;
+        font-size: 11px;
+        font-weight: 800;
+        text-align: center;
+    }
+
 `
 export const Main = styled.main`
-    height: 240px;
+    display: flex;
+    flex-direction:column;
+    height: 290px;
     background:#111111;
     h1{
         font-size: 25px;
@@ -29,6 +44,9 @@ export const Main = styled.main`
         font-size: 14px ;
         margin: 20px;
         color: #fff;
+    }
+    #large{
+        font-size: 22px;
     }
     @media screen and (max-width: 361px){
         height: auto;
